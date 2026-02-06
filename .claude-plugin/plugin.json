@@ -1,0 +1,9 @@
+{
+  "name": "vastai",
+  "version": "1.0.0",
+  "description": "Interface with Vast.ai GPU marketplace — search offers, launch instances, and manage GPU workloads",
+  "author": {
+    "name": "Lior"
+  },
+  "skills": "./skills/"
+}
