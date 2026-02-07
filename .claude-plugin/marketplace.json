@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "vastai",
-      "source": ".",
+      "source": "./",
       "description": "Interface with Vast.ai GPU marketplace — search offers, launch instances, run jobs, and manage GPU workloads"
     }
   ]
