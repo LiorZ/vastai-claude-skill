@@ -6,11 +6,22 @@ The headline feature is `/run-job` — an autonomous agent that searches for a G
 
 ## Install
 
-```bash
-claude plugin install --from-gh LiorZ/vastai-claude-skill
+Add the marketplace and install the plugin:
+
+```
+/plugin marketplace add LiorZ/vastai-claude-skill
+/plugin install vastai@vastai-skills
 ```
 
-Or for local development:
+To install at a specific scope:
+
+```
+/plugin install vastai@vastai-skills --scope user      # personal (default)
+/plugin install vastai@vastai-skills --scope project   # shared with team (committed to repo)
+/plugin install vastai@vastai-skills --scope local     # project-local, gitignored
+```
+
+For local development:
 
 ```bash
 claude --plugin-dir /path/to/vastai-claude-skill
